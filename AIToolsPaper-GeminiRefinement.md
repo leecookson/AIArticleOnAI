@@ -36,6 +36,10 @@ In the end, I devised a solution, but the AI tools were only helpful for small, 
 
 Interestingly, while working within the Azure console, the integrated CoPilot did perform reasonably well at troubleshooting. This suggests that when a platform's resource model is particularly complex or esoteric, the knowledge base for AI tools to draw from may not have reached a critical mass, making the platform itself difficult to figure out even for AI assistants.
 
+~~Interestingly, while working within the Azure console, the integrated CoPilot did perform reasonably well at troubleshooting. This suggests that when a platform's resource model is particularly complex or esoteric, the knowledge base for AI tools to draw from may not have reached a critical mass, making the platform itself difficult to figure out even for AI assistants.~~
+
+**refined, prompt: In the paragraph about the azure console, the 2 concepts connected here are not related. Re-write this paragraph to show that while the console CoPilot was useful in the console, overall the AI tools did poorly generating templates for azure resources**
+
 While the integrated CoPilot was reasonably helpful for troubleshooting directly within the Azure console, this success was an isolated bright spot. The broader task of generating functional Terraform templates with other AI tools proved to be a major challenge. This discrepancy suggests a larger issue: the AI models struggled to generate useful infrastructure-as-code for Azure because the platform's resource model is either too esoteric to have a critical mass of public content for the AI to learn from, or the platform itself is simply too difficult for the current generation of AI to understand and model effectively.
 
 ---
