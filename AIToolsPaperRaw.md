@@ -22,7 +22,7 @@ All the tools I used did a good job at creating and refining narrow parts of the
 
 Of note, and since I was very familiar with the desired outcome, Asking Gemini to create a full configuration for an AWS CloudFront site, including certificates, S3 content storage and logs was almost a first-time exact match. I did wind up refining the result slightly, but this was purely refinement, and not "fixing". Since CloudFront encapsulates almost all of the configuration into a single resource, there is likely a lot of off-the-shelf examples for an AI tool to "borrow", compared with the dozen-or-more resources Azure and GCP use to build a simple site.
 
-#Epilogue
+# Epilogue
 
 I made some assumptions and set some baseline requirements for this project:
 
